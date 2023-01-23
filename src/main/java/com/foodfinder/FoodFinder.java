@@ -1,11 +1,11 @@
-package org.example;
+package com.foodfinder;
 
 import java.util.List;
 
-public class FoodFinder {
+class FoodFinder {
     Receipe createRecipe(List<String> ingredients) {
         // cos tam zrobić z nimi ingredients
-        Receipe receipe = new Receipe("jajecznicaaaa");
+        Receipe receipe = new Receipe("jajecznica");
         return receipe;
     }
 }
